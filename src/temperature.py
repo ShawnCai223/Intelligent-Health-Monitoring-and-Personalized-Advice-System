@@ -3,7 +3,7 @@ import board
 import busio
 import adafruit_mlx90614
 
-def read_avg_temperature(duration_sec=5):
+def read_avg_temperature(duration_sec=10):
     i2c = busio.I2C(board.SCL, board.SDA, frequency=100000)
     mlx = adafruit_mlx90614.MLX90614(i2c)
     object_list = []
