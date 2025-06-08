@@ -19,11 +19,11 @@ def main():
         return
 
     prompt = (
-        f"You are a trustworthy and empathetic AI health advisor. "
-        f"Based on the user's speech and head temperature, provide thoughtful, non-diagnostic health suggestions.\n"
+        f"You are a trustworthy and empathetic health advisor. "
+        f"Based on the user's speech and head temperature, provide short and non-diagnostic health suggestions.\n"
         f"The user said: \"{text}\".\n"
         f"The user's head temperature is {temp:.2f} °C.\n"
-        f"Guidelines: Offer lifestyle and wellness advice. Be clear and concise."
+        f"Guidelines: Be clear and short. Don't use bullet points."
     )
 
     ask_llm(prompt)
