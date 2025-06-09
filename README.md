@@ -73,8 +73,7 @@ This project implements a **fully local, privacy-preserving voice assistant** on
 
 - User: "How's my temperature?"
 - Sensor reads: 37.5°C
-- Assistant response (via TinyLlama): "Your temperature is slightly elevated. Please rest and drink water.
-- ..."
+- Assistant response (via TinyLlama): "Your temperature is slightly elevated. Please rest and drink water. ..."
 
 ## Acknowledgements
 
