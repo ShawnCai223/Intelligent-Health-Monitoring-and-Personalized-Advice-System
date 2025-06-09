@@ -28,7 +28,7 @@ This project implements a **fully local, privacy-preserving voice assistant** on
 | `Ollama`          | LLM serving platform                    |
 | `TinyLlama`       | 1.1B parameter local language model     |
 | `pico2wave`       | Lightweight text-to-speech tool         |
-| `smbus` / `i2c-tools` | For I2C sensor communication       |
+| `i2c-tools`       | For I2C sensor communication       |
 | `Python 3`        | For script and logic coordination       |
 
 ## How to Run
@@ -73,7 +73,8 @@ This project implements a **fully local, privacy-preserving voice assistant** on
 
 - User: "How's my temperature?"
 - Sensor reads: 37.5°C
-- Assistant response (via TinyLlama): "Your temperature is slightly elevated. Please rest and drink water."
+- Assistant response (via TinyLlama): "Your temperature is slightly elevated. Please rest and drink water.
+- ..."
 
 ## Acknowledgements
 
