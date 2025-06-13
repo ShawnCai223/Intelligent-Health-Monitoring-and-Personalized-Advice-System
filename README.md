@@ -4,6 +4,8 @@
 
 This project implements a **fully local, privacy-preserving voice assistant** on the NVIDIA Jetson Nano platform. It integrates real-time **speech recognition**, **local LLM-based natural language understanding**, **sensor-based contextual feedback**, and **text-to-speech (TTS)** output, all without requiring an internet connection.
 
+[Jetson Nano](Jetson Nano.png)
+
 ## Features
 
 - Offline Speech Recognition (`whisper.cpp`)
@@ -19,6 +21,9 @@ This project implements a **fully local, privacy-preserving voice assistant** on
 - Speaker 
 - MLX90614 Infrared Temperature Sensor
 - I2C wiring/circuit setup for MLX90614
+
+
+
 
 ## Software Dependencies
 
@@ -81,4 +86,8 @@ This project implements a **fully local, privacy-preserving voice assistant** on
 - [Ollama](https://ollama.com/)
 - [TinyLlama](https://huggingface.co/TinyLlama)
 - [pico2wave](https://github.com/naggety/pico2wave-wrapper)
-- NVIDIA Jetson Nano documentation
+- [NVIDIA Jetson Nano documentation](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit)
+
+## Demo Video
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UVbLRW2dyao?si=RWO2QdPWE1zZ4Cnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
