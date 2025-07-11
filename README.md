@@ -89,5 +89,5 @@ This project implements a **fully local, privacy-preserving voice assistant** on
 - [NVIDIA Jetson Nano documentation](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit)
 
 ## Demo Video
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UVbLRW2dyao?si=RWO2QdPWE1zZ4Cnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+[![Demo Presentation](https://img.youtube.com/vi/UVbLRW2dyao/0.jpg)](https://www.youtube.com/watch?v=UVbLRW2dyao)
